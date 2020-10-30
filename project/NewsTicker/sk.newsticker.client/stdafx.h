@@ -4,7 +4,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-#define CEF_ENABLE 0
+#define CEF_ENABLE 1
 
 #include "../../../common/common.h"
 #include "../../../common/spdlog.hpp"
@@ -14,23 +14,23 @@
 #include "../../../common/encrypt.hpp"
 #include "../../../common/timer.hpp"
 
-#include "../../../common/gpl/rapidxml/rapidxml.hpp"
-#include "../../../common/gpl/rapidxml/rapidxml_iterators.hpp"
-#include "../../../common/gpl/rapidxml/rapidxml_print.hpp"
-#include "../../../common/gpl/rapidxml/rapidxml_utils.hpp"
+#include "../../../gpl/rapidxml/rapidxml.hpp"
+#include "../../../gpl/rapidxml/rapidxml_iterators.hpp"
+#include "../../../gpl/rapidxml/rapidxml_print.hpp"
+#include "../../../gpl/rapidxml/rapidxml_utils.hpp"
 
-#include "../../../common/gpl/rapidjson/reader.h"
-#include "../../../common/gpl/rapidjson/document.h"
-#include "../../../common/gpl/rapidjson/rapidjson.h"
-#include "../../../common/gpl/rapidjson/stringbuffer.h"
-#include "../../../common/gpl/rapidjson/writer.h"
-#include "../../../common/gpl/rapidjson/stream.h"
+#include "../../../gpl/rapidjson/reader.h"
+#include "../../../gpl/rapidjson/document.h"
+#include "../../../gpl/rapidjson/rapidjson.h"
+#include "../../../gpl/rapidjson/stringbuffer.h"
+#include "../../../gpl/rapidjson/writer.h"
+#include "../../../gpl/rapidjson/stream.h"
 
-#include "../../../business/systemid.hpp"
-#include "../../../business/interface.hpp"
-#include "../../../business/systemcon.hpp"
-#include "../../../shared/skapi.network/dllexports.hpp"
-#include "../../../shared/skapi.hpp"
+#include "../../../shared/systemid.hpp"
+#include "../../../shared/interface.hpp"
+#include "../../../shared/systemcon.hpp"
+#include "global/skapi.network/dllexports.hpp"
+#include "global/skapi.hpp"
 
 #include "Setup.h"
 #include "NetSync.h"

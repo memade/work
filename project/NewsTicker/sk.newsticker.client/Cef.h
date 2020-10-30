@@ -2,6 +2,33 @@
 #define AFX_SK_H__5D3AA4D6_7C80_47DB_B965_623497D7B2D9__HEAD__
 
 #if CEF_ENABLE
+
+#ifdef IsMinimized
+#undef IsMinimized
+#endif
+
+#ifdef IsMaximized
+#undef IsMaximized
+#endif
+
+#ifdef GetNextSibling
+#undef GetNextSibling
+#endif
+
+#ifdef GetFirstChild
+#undef GetFirstChild
+#endif
+
+#if !defined(_DEBUG)
+#pragma comment(lib,"../../../bin/lib/Release/cef_sandbox.lib")
+#pragma comment(lib,"../../../bin/lib/Release/libcef.lib")
+#pragma comment(lib,"../../../bin/lib/Release/libcef_dll_wrapper.lib")
+#else
+#pragma comment(lib,"../../../bin/lib/Debug/cef_sandbox.lib")
+#pragma comment(lib,"../../../bin/lib/Debug/libcef.lib")
+#pragma comment(lib,"../../../bin/lib/Debug/libcef_dll_wrapper.lib")
+#endif
+
 #include "include/cef_app.h"
 #include "include/cef_client.h"
 #include "include/cef_parser.h"
