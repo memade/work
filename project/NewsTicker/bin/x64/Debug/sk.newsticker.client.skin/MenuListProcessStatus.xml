@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Window size="120,102">
-	<Include source="default.xml" />
-	<Default name="Menu" value="bordersize=&quot;1&quot; bordercolor=&quot;#FF1E1E1E&quot; inset=&quot;3,4,3,4&quot; itemtextpadding=&quot;35,0,0,0&quot; bkcolor=&quot;#FF919191&quot; itemselectedbkcolor=&quot;#FFB5B5B5&quot;" />
-	<Menu itemfont="23">
-		<MenuElement name="DEF_9757A791071B50B7F8997722183CF565" height="25" text="撤单" inset="40,0,0,0" />
-	</Menu>
-</Window>
