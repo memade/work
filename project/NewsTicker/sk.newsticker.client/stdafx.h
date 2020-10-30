@@ -9,6 +9,7 @@
 #include "../../../common/common.h"
 #include "../../../common/spdlog.hpp"
 #include "../../../common/notify.hpp"
+#include "../../../common/msgbox.hpp"
 #include "../../../common/dump.hpp"
 #include "../../../common/duilib.hpp"
 #include "../../../common/encrypt.hpp"
