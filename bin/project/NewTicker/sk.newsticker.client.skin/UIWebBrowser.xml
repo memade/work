@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="200,150" sizebox="4,4,6,6" caption="0,0,0,32">
+	<Font id="0" name="微软雅黑" size="13" bold="false" default="true"/>
+	<Font id="1" name="微软雅黑" size="12" bold="false" shared="true"/>
+	<Font id="2" name="微软雅黑" size="11" bold="true"/>
+	<Font id="3" name="微软雅黑" size="12" bold="true"/>
+
+	<VerticalLayout bkcolor="#FF1E1E1E" bordercolor="#FF68217A" bordersize="1" borderround="0,0" inset="0,0,0,0">
+		<WebBrowser name="DEF_2730FCBC767AAD64BCB02BB1446EF61A" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false"/>
+	</VerticalLayout>
+</Window>
+

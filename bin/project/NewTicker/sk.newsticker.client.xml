@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ANSI" ?>
+<setup>
+	<runtime path="sk.api"/>
+	<tcpto addr="192.168.2.226:2226"/>
+	<login id="C01" username="999999" password="111111" identify="FX168TEST"/>
+</setup>

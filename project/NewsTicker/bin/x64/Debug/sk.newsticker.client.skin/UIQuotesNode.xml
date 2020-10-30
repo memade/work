@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>						
+	<HorizontalLayout>
+		<!--TradeCodeOnLine-->
+		<Label name="DEF_373F9486BA64908828569980C6B38A1D" text="-" textcolor="#FFFF0000" font="103" align="center"/>
+		<Label name="DEF_B2909BEFD531DE4376EBCBBCD2F31E1C" text="▲" textcolor="#FF00FF00" font="103" align="center"/>
+		<!--TradePrice-->		
+		<Container name="DEF_EDA9499E9D8DE3EC1A25B2C1A5B4DCB0" width="32" bkimage="file='images/logo/logo_24px.png' source='0,0,22,24' dest='4,4,26,28'"/>
+		<!--PreClosePrice-->
+		<Label name="DEF_B6F518C23C4A904F4460B521D730332C" text="-" textcolor="#FFFFFFFF" font="103" align="center"/>
+		<!--UpPercent-->
+		<Label name="DEF_B9424ABE686AC1A24F41DD1DF4D13BCB" text="-" textcolor="#FFFF0000" font="103" align="center"/>
+	</HorizontalLayout>
+</Window>

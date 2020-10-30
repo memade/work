@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window>						
+	<ListContainerElement height="20">
+		<Label name="DEF_3D12BAF115FDB3F40B374B26890EC9E6" text="-" textcolor="#FFFFFFFF" font="23" align="center"/>
+		<Label name="DEF_4AF6AE7A33133513C3DD75BAD2FA3F0A" text="-" textcolor="#FFFF0000" font="23" align="center"/>
+		<Label name="DEF_ECFDC30D874A8D21AC67CDC702CE0B87" text="-" textcolor="#FF00FF00" font="23" align="center"/>
+	</ListContainerElement>
+</Window>

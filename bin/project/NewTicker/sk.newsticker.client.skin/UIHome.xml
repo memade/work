@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="false">
+	<VerticalLayout>
+		<HorizontalLayout bkcolor="#FF1E1E1E" bordercolor="#FF3C3C3C" bordersize="1">
+			<Control name="DEF_E8D74F602512899719CAA06890310C82" visible="false" layeredimage="file='images/logo/fx128_logo_280_128px.png' " layeredopacity="255"/>
+			<HorizontalLayout bordercolor="#FF3C3C3C" bordersize="1">				
+				<WebBrowser name="DEF_2730FCBC767AAD64BCB02BB1446EF61A" width="500" clsid="{8856F961-340A-11D0-A96B-00C04FD705A2}" delaycreate="false"/>				
+			</HorizontalLayout>
+			<Control name="DEF_FE5F67A9257651A1EA57D8C165D32A1C" layeredimage="file='images/logo/fx128_logo_280_128px.png' " layeredopacity="255"/>
+		</HorizontalLayout>
+		<HorizontalLayout height="128" bkcolor="#FF1E1E1E" bordercolor="#FF3C3C3C" bordersize="1">
+			<!--嵌入-->
+			<HorizontalLayout width="280" >
+				<Container bkimage="file='images/logo/fx128_logo_280_128px.png' "/>
+			</HorizontalLayout>
+			
+			<!--跑马灯-->
+			<VerticalLayout>
+				<!--滚动利率(左右)-->
+				<HorizontalLayout name="DEF_C9D79D14CA66FAEA074806985064DF2A" bkcolor="#FFFFFFFF" bkcolor2="#FF778899" bordercolor="#FF3C3C3C" bordersize="1">
+					<Control/>
+					<Label name="DEF_A69BE825FDCA922139CDC853AC51CE1E" width="0" text="newspaper - a daily or weekly publication on folded sheets; contains news and articles and advertisements; 'he read his newspaper at breakfast'. paper. public press, press - the print media responsible for gathering and publishing news in the form of newspapers or magazines." font="102" wordbreak="false" textcolor="#FF00008B" padding="0,0,0,0"/>
+				</HorizontalLayout>
+				<!--滚动报价(上下)-->
+				<HorizontalLayout>
+					<Label name="DEF_759B5837963BBFD149CE2697BC90368C" bkcolor="#FFFFFFAA" bkcolor2="#FFFF0000" width="120" textcolor="#FFFFFFFF" font="104" align="center"/>
+					<HorizontalLayout name="DEF_F2EAE93EE273A39E09B0C6ED2E868268" bkcolor="#FF0000FF" bkcolor2="#FF000000"/>				
+				</HorizontalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+		
+		
+
+
+	</VerticalLayout>
+</Window>
+
