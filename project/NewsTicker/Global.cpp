@@ -19,7 +19,7 @@ namespace client {
 		m_pObjectNotify = new sk::NotifyObject();
 		m_pLog = new sk::Log(GetCurrentProcessDirectory());
 		m_LogKey = m_pLog->Alloc(GetCurrentProcessName(), sk::EnLogType::EN_LOG_TYPE_ALL);
-		m_pApi = new shared::SKAPI(
+		m_pApi = new shared::SharedApi(
 			m_pLog,
 			shared::EnApiLoadFlag::EN_API_LOAD_FLAG_NETWORK,
 			m_pSetup->ApiPath().c_str());
@@ -42,7 +42,7 @@ namespace client {
 	Core* Global::GetCore() {
 		return GetGlobal()->m_pCore;
 	}
-	shared::SKAPI* Global::GetApi() {
+	shared::SharedApi* Global::GetApi() {
 		return GetGlobal()->m_pApi;
 	}
 	Shared* Global::SharedGet() {

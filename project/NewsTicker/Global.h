@@ -14,7 +14,7 @@ namespace client {
 	public:
 		static sk::NotifyObject* GetObjectNotify();
 		static Core* GetCore();
-		static shared::SKAPI* GetApi();
+		static shared::SharedApi* GetApi();
 		static Shared* SharedGet();
 		static Setup* SetupGet();
 		static std::shared_ptr<spdlog::logger> Log(sk::EnLogType logType = sk::EnLogType::EN_LOG_TYPE_SYSTEM);
@@ -25,7 +25,7 @@ namespace client {
 		sk::Log* m_pLog = nullptr;
 		sk::NotifyObject* m_pObjectNotify = nullptr;
 		Core* m_pCore = nullptr;
-		shared::SKAPI* m_pApi = nullptr;
+		shared::SharedApi* m_pApi = nullptr;
 		Shared* m_pShared = nullptr;
 		Setup* m_pSetup = nullptr;
 		std::atomic<bool> m_SystemExit = false;

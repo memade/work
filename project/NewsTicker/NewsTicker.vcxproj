@@ -93,7 +93,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\;$(SolutionDir)..\..\Gpl\spdlog\include;$(SolutionDir)..\Gpl\cef</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\;$(SolutionDir)..\..\Gpl\spdlog\include;$(SolutionDir)..\..\Gpl\cef</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_UNICODE;UNICODE;WIN32;NDEBUG;_WINDOWS;UILIB_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
@@ -147,7 +147,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\;$(SolutionDir)..\..\Gpl\spdlog\include;$(SolutionDir)..\Gpl\cef</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\;$(SolutionDir)..\..\Gpl\spdlog\include;$(SolutionDir)..\..\Gpl\cef</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_UNICODE;UNICODE;WIN32;NDEBUG;_WINDOWS;UILIB_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
@@ -194,7 +194,7 @@
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="sk.newsticker.client.rc" />
+    <ResourceCompile Include="NewsTicker.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
