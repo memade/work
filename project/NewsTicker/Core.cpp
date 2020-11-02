@@ -42,7 +42,7 @@ namespace client {
 				//CPaintManagerUI::SetResourcePath(CPaintManagerUI::GetInstancePath());
 				//CPaintManagerUI::SetResourceZip(_TEXT("skskin"),false,_TEXT("www.skstu.com"));
 				CPaintManagerUI::SetInstance(extern_global_hinstance);
-				CPaintManagerUI::SetResourcePath(CPaintManagerUI::GetInstancePath() + _TEXT("sk.newsticker.client.skin"));
+				CPaintManagerUI::SetResourcePath(CPaintManagerUI::GetInstancePath() + _TEXT("NewsTicker.skin"));
 				m_pClient = new UIClient();
 				m_pClient->Create(NULL, _TEXT("新生联创"), UI_WNDSTYLE_FRAME, 0L);
 				m_pClient->CenterWindow();

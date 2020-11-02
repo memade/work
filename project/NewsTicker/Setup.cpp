@@ -14,7 +14,7 @@ namespace client {
 	}
 	int Setup::Init() {
 		int result = -1;
-		auto stream = std::make_shared<std::basic_ifstream<char>>((ObjPath() + "sk.newsticker.client.xml").c_str(), std::ios::binary);
+		auto stream = std::make_shared<std::basic_ifstream<char>>((ObjPath() + "NewsTicker.xml").c_str(), std::ios::binary);
 		if (!stream->is_open()) { return result; }
 		auto xmlfile = std::make_shared<rapidxml::file<>>(*stream.get());
 		auto xmldoc = std::make_shared<rapidxml::xml_document<>>();
