@@ -20,13 +20,13 @@
 #endif
 
 #if !defined(_DEBUG)
-#pragma comment(lib,"../../../bin/lib/Release/cef_sandbox.lib")
-#pragma comment(lib,"../../../bin/lib/Release/libcef.lib")
-#pragma comment(lib,"../../../bin/lib/Release/libcef_dll_wrapper.lib")
+#pragma comment(lib,"../../../gpl/cef/Release/cef_sandbox.lib")
+#pragma comment(lib,"../../../gpl/cef/Release/libcef.lib")
+#pragma comment(lib,"../../../bin/lib/x64/Release/libcef_dll_wrapper.lib")
 #else
-#pragma comment(lib,"../../../bin/lib/Debug/cef_sandbox.lib")
-#pragma comment(lib,"../../../bin/lib/Debug/libcef.lib")
-#pragma comment(lib,"../../../bin/lib/Debug/libcef_dll_wrapper.lib")
+#pragma comment(lib,"../../../gpl/cef/Debug/cef_sandbox.lib")
+#pragma comment(lib,"../../../gpl/cef/Debug/libcef.lib")
+#pragma comment(lib,"../../../bin/lib/x64/Debug/libcef_dll_wrapper.lib")
 #endif
 
 #include "include/cef_app.h"
