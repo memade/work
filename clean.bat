@@ -1,5 +1,4 @@
 del *.opt /s /q /f
-del *.positions /s /q /f
 del *.sdf /s /q /f
 del *.old /s /q /f
 del *.tlog /s /q /f
@@ -19,7 +18,6 @@ del *.suo /s /q /f
 del *.asp /s /q /f
 del *.aps /s /q /f
 del *.ilk /s /q /f
-del *.manifest /s /q /f
 del *.idb /s /q /f
 del *.~* /s /q /f
 del *.unsuccessfulbuild /s /q /f
